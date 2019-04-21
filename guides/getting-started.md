@@ -19,12 +19,12 @@ Visit the [`Learning-Fuze/senior-front-end-lessons`](github.com/Learning-Fuze/se
 
 1. In your terminal, navigate to your `senior-front-end-lessons` repository.
 2. Run the following command to add the original `Learning-Fuze/senior-front-end-lessons` as a remote repository.
-```bash
-git remote add upstream https://github.com/Learning-Fuze/senior-front-end-lessons
-```
+    ```bash
+    git remote add upstream https://github.com/Learning-Fuze/senior-front-end-lessons
+    ```
 3. Run the following command to confirm that `upstream` was added to your local repository.
-```bash
-git remote -v
-```
+    ```bash
+    git remote -v
+    ```
 
 ![Setting senior-front-end-lessons Upstream](images/setting-senior-front-end-lessons-upstream.gif)
