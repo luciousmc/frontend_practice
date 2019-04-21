@@ -4,11 +4,12 @@ Using NPM to manage front end projects.
 
 ### Before You Begin
 
+In your terminal, navigate the to `exercises/npm-intro` directory.
+
 Be sure to check out a new branch for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md).
 
 ### Exercise
 
-0. Change directories to `exercises/npm-intro`.
 1. Read about the NPM website, CLI, and registry at [npmjs.com](https://docs.npmjs.com/about-npm/).
 2. [Create a `package.json`](https://docs.npmjs.com/creating-a-package-json-file#creating-a-default-packagejson-file) in `exercises/npm-intro` using the `npm` command.
 3. Install the [`jquery`](https://www.npmjs.com/package/jquery) package as a dependency [using the `npm install` command](https://docs.npmjs.com/cli/install.html).

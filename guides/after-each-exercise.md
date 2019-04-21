@@ -22,9 +22,9 @@ When you have completed an exercise you'll want to send your solution to the ins
     ```bash
     git commit -m "Completed example exercise."
     ```
-6. Push the new commit(s) to your fork of `senior-front-end-lessons` on GitHub. **The _real_ name of this new branch is in the instructions for the exercise.**
+6. Push the new commit(s) to your fork of `senior-front-end-lessons` on GitHub. **The _real_ name of this new branch is the name of the exercise.**
     ```bash
-    git push origin name-of-exercise
+    git push origin example-exercise
     ```
 
 ![Commit and Push Solution](images/commit-and-push-solution.gif)
