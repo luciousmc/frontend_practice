@@ -31,7 +31,9 @@ When you have completed an exercise you'll want to send your solution to the ins
 
 ### Open a Pull Request on GitHub
 
-If you get stuck, be sure to notify an instructor right away.
+Now that your solution has been uploaded to GitHub, it's time to notify the instructors by submitting a Pull Request.
+
+If you get stuck while turning in a solution, be sure to notify an instructor right away.
 
 1. Visit the your fork of the `senior-front-end-lessons` repository on GitHub and click **Pull Requests** tab.
 2. In the **Pull Requests** tab, click the **New Pull Request** button.
@@ -46,6 +48,5 @@ If you get stuck, be sure to notify an instructor right away.
 4. Click the **Create Pull Request** button and give your Pull Request a title that makes it easy to identify who it's from and what it's for.
     > For example, if your full name is **Linus Torvalds** and the exercise is named **Example Lesson**, then your Pull Request title should be **Example Lesson - Linus Torvalds**.
 5. Click the **Create Pull Request** button. Done!
-
 
 ![Open a Pull Request](images/open-a-pull-request.gif)
