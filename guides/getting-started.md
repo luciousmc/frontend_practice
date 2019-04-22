@@ -1,6 +1,8 @@
 Getting Started
 --
 
+To get started, you'll be creating a fork of the `Learning-Fuze/senior-front-end-lessons` repository and cloning your fork to your local machine.
+
 ### Fork the Repository on GitHub
 
 Visit the [`Learning-Fuze/senior-front-end-lessons`](github.com/Learning-Fuze/senior-front-end-lessons) GitHub repository and click the **Fork** button. GitHub will create a copy of the repository under your own account.
@@ -16,6 +18,8 @@ Visit the [`Learning-Fuze/senior-front-end-lessons`](github.com/Learning-Fuze/se
 ![Cloning fork of senior-front-end-lessons](images/cloning-senior-front-end-lessons.gif)
 
 ### Add the LearningFuze Upstream Repository
+
+Occasionally, updates to these lessons will be made available by instructors. Adding the original `Learning-Fuze/senior-front-end-lessons` to your local repo's remotes will make receiving the updates easy.
 
 1. In your terminal, navigate to your `senior-front-end-lessons` repository.
 2. Run the following command to add the original `Learning-Fuze/senior-front-end-lessons` as a remote repository.
