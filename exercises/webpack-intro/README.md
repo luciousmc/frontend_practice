@@ -1,10 +1,10 @@
 # webpack-intro
 
-Using Webpack to bundle front end code.
+Using Webpack to build front end projects.
 
 ### Before You Begin
 
-Be sure to check out a new branch (from `master`) for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md). Then navigate the to `exercises/webpack-intro` directory in your terminal.
+Be sure to check out a new branch (from `master`) for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md). Then navigate to the `exercises/webpack-intro` directory in your terminal.
 
 ### Exercise
 

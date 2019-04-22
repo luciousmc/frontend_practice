@@ -4,7 +4,7 @@ Using NPM to manage project dependencies.
 
 ### Before You Begin
 
-Be sure to check out a new branch (from `master`) for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md). Then navigate the to `exercises/npm-intro` directory in your terminal.
+Be sure to check out a new branch (from `master`) for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md). Then navigate to the `exercises/npm-intro` directory in your terminal.
 
 ### Exercise
 
