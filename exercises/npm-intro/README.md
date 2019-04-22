@@ -1,12 +1,10 @@
 # npm-intro
 
-Using NPM to manage front end projects.
+Using NPM to manage project dependencies.
 
 ### Before You Begin
 
-In your terminal, navigate the to `exercises/npm-intro` directory.
-
-Be sure to check out a new branch for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md).
+Be sure to check out a new branch (from `master`) for this exercise. Detailed instructions can be found [**here**](../../guides/before-each-exercise.md). Then navigate the to `exercises/npm-intro` directory in your terminal.
 
 ### Exercise
 
@@ -18,11 +16,12 @@ Be sure to check out a new branch for this exercise. Detailed instructions can b
 
 ### Submitting Your Solution
 
-When your solution is complete, submit a Pull Request on GitHub. Detailed instructions can be found [**here**](../../guides/after-each-exercise.md).
+When your solution is complete, return to the root of your `senior-front-end-lessons` directory. Then commit your changes, push, and submit a Pull Request on GitHub. Detailed instructions can be found [**here**](../../guides/after-each-exercise.md).
 
 ### Quiz
 
 - What is NPM?
 - What is a package?
 - How can you create a `package.json` with `npm`?
-- How can you add a dependency to a package with `npm`?
+- What is a dependency and how to you add one to a package?
+- What happens when you add a dependency to a package with `npm`?
