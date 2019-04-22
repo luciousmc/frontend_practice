@@ -46,7 +46,7 @@ If you get stuck while turning in a solution, be sure to notify an instructor ri
     - Select your exercise branch as the `compare` branch.
         > For example, if the exercise you are completing is named **`example-lesson`**, then your `compare` branch is **`example-lesson`**.
 4. Click the **Create Pull Request** button and give your Pull Request a title that makes it easy to identify who it's from and what it's for.
-    > For example, if your full name is **Linus Torvalds** and the exercise is named **Example Lesson**, then your Pull Request title should be **Example Lesson - Linus Torvalds**.
+    > For example, if your full name is **Linus Torvalds** and the exercise is named **Example Exercise**, then your Pull Request title should be **Example Exercise - Linus Torvalds**.
 5. Click the **Create Pull Request** button. Done!
 
 ![Open a Pull Request](images/open-a-pull-request.gif)
