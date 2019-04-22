@@ -1,9 +1,13 @@
 After Each Exercise
 --
 
-When you have completed an exercise you'll want to send your solution to the instructors for review. To do this, you'll commit your changes, push them to GitHub, and submit a Pull Request.
+When you have completed an exercise you'll want to send your solution to the instructors for review.
 
 ### Commit and Push to GitHub
+
+To turn in your solution, you'll commit your changes, push them to GitHub, and submit a Pull Request.
+
+If you get stuck committing or pushing your work, be sure to notify an instructor right away.
 
 1. In your terminal, navigate to **the root** of your `senior-front-end-lessons` directory.
 2. Check your local repository for unstaged changes.
@@ -33,7 +37,7 @@ When you have completed an exercise you'll want to send your solution to the ins
 
 Now that your solution has been uploaded to GitHub, it's time to notify the instructors by submitting a Pull Request.
 
-If you get stuck while turning in a solution, be sure to notify an instructor right away.
+If you get stuck while opening a Pull Request, be sure to notify an instructor right away.
 
 1. Visit the your fork of the `senior-front-end-lessons` repository on GitHub and click **Pull Requests** tab.
 2. In the **Pull Requests** tab, click the **New Pull Request** button.
@@ -46,7 +50,7 @@ If you get stuck while turning in a solution, be sure to notify an instructor ri
     - Select your exercise branch as the `compare` branch.
         > For example, if the exercise you are completing is named **`example-lesson`**, then your `compare` branch is **`example-lesson`**.
 4. Click the **Create Pull Request** button and give your Pull Request a title that makes it easy to identify who it's from and what it's for.
-    > For example, if your full name is **Linus Torvalds** and the exercise is named **Example Lesson**, then your Pull Request title should be **Example Lesson - Linus Torvalds**.
+    > For example, if your full name is **Linus Torvalds** and the exercise is named **Example Exercise**, then your Pull Request title should be **Example Exercise - Linus Torvalds**.
 5. Click the **Create Pull Request** button. Done!
 
 ![Open a Pull Request](images/open-a-pull-request.gif)
