@@ -3,7 +3,7 @@ Before Each Exercise
 
 When you are about to begin an exercise, make sure that your local files are up-to-date with any changes from the instructors. You'll be creating a new branch for each exercise that include these changes.
 
-If you get stuck, be sure to notify an instructor right away.
+If you get stuck while creating a new branch, be sure to notify an instructor right away.
 
 1. In your terminal, navigate to your `senior-front-end-lessons` directory.
 2. Check `git status` to ensure that you don't have any uncommitted changes. You should have nothing to commit and a **clean working tree before continuing**.

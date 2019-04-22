@@ -1,9 +1,13 @@
 After Each Exercise
 --
 
-When you have completed an exercise you'll want to send your solution to the instructors for review. To do this, you'll commit your changes, push them to GitHub, and submit a Pull Request.
+When you have completed an exercise you'll want to send your solution to the instructors for review.
 
 ### Commit and Push to GitHub
+
+To turn in your solution, you'll commit your changes, push them to GitHub, and submit a Pull Request.
+
+If you get stuck committing or pushing your work, be sure to notify an instructor right away.
 
 1. In your terminal, navigate to **the root** of your `senior-front-end-lessons` directory.
 2. Check your local repository for unstaged changes.
@@ -33,7 +37,7 @@ When you have completed an exercise you'll want to send your solution to the ins
 
 Now that your solution has been uploaded to GitHub, it's time to notify the instructors by submitting a Pull Request.
 
-If you get stuck while turning in a solution, be sure to notify an instructor right away.
+If you get stuck while opening a Pull Request, be sure to notify an instructor right away.
 
 1. Visit the your fork of the `senior-front-end-lessons` repository on GitHub and click **Pull Requests** tab.
 2. In the **Pull Requests** tab, click the **New Pull Request** button.
