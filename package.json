@@ -1,0 +1,23 @@
+{
+  "name": "senior-front-end-lessons",
+  "version": "1.0.0",
+  "description": "Senior Front End Lessons and Resources",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Learning-Fuze/senior-front-end-lessons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Learning-Fuze/senior-front-end-lessons/issues"
+  },
+  "homepage": "https://github.com/Learning-Fuze/senior-front-end-lessons#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0"
+  }
+}
