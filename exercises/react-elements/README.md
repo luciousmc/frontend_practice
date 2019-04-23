@@ -27,10 +27,10 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
     └── src
         └── index.js
     ```
-9. Within `index.js`, [import `React`](https://reactjs.org/docs/react-api.html) from the `react` package and import [`ReactDOM`](https://reactjs.org/docs/react-dom.html) from the `react-dom` package.
-10. [Use `React.createElement`](https://reactjs.org/docs/react-api.html#createelement) to create an `h1` React element with `null` props and a `children` string of `'Hello, React!'`.
-11. [Use `ReactDOM.render`](https://reactjs.org/docs/react-dom.html#render) to mount your React element into your `div`.
-12. Run your `"build"` script and open `dist/index.html` in your browser.
+10. Within `index.js`, [import `React`](https://reactjs.org/docs/react-api.html) from the `react` package and import [`ReactDOM`](https://reactjs.org/docs/react-dom.html) from the `react-dom` package.
+11. [Use `React.createElement`](https://reactjs.org/docs/react-api.html#createelement) to create an `h1` React element with `null` props and a `children` string of `'Hello, React!'`.
+12. [Use `ReactDOM.render`](https://reactjs.org/docs/react-dom.html#render) to mount your React element into your `div`.
+13. Run your `"build"` script and open `dist/index.html` in your browser.
     ```shell
     npm run build
     ```
