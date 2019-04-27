@@ -10,7 +10,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 1. Read about Babel in the [official documentation](https://babeljs.io/docs/en/).
 2. Visit [this preconfigured Babel REPL](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=usage&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=&prettier=true&targets=&version=7.4.3&externalPlugins=%40babel%2Fplugin-transform-block-scoping%407.4.4%2C%40babel%2Fplugin-transform-arrow-functions%407.2.0) and paste the following ES2015 code in. Notice how Babel transforms the newer JavaScript syntax into older ES5 syntax.
-
     ```js
     const foo = 'bar';
 
