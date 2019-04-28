@@ -1,11 +1,11 @@
 #!/bin/bash
 
-if [ "$#" -eq 0 ] then
+if [ "$#" -eq 0 ]; then
   echo "Error: No exercise directory specified." 1>&2
   exit 1
 fi
 
-if [ -d "exercises/$1" ] then
+if [ -d "exercises/$1" ]; then
   echo "Error: Exercise \"$1\" already exists." 1>&2
   exit 1
 fi
