@@ -9,7 +9,8 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 ### Exercise
 
 1. Read [about JSX and why it is used](https://reactjs.org/docs/introducing-jsx.html) in the official React documentation.
-2. Visit [this preconfigured Babel REPL](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=usage&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=&prettier=true&targets=&version=7.4.4&externalPlugins=%40babel%2Fplugin-transform-react-jsx%407.3.0) and paste the following JSX code in. Notice how Babel uses a **plugin** to transform the JSX into valid JavaScript that a browser can understand.
+2. Read the beginning of [JSX in Depth](https://reactjs.org/docs/jsx-in-depth.html) in the official React documentation.
+3. Visit [this preconfigured Babel REPL](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=usage&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=&prettier=true&targets=&version=7.4.4&externalPlugins=%40babel%2Fplugin-transform-react-jsx%407.3.0) and paste the following JSX code in. Notice how Babel uses a **plugin** to transform the JSX into valid JavaScript that a browser can understand.
     ```jsx
     import React from 'react';
     import ReactDOM from 'react-dom';
@@ -21,20 +22,20 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
       document.querySelector('#root')
     );
     ```
-3. Create a new `package.json` and install the following `devDependencies`:
+4. Create a new `package.json` and install the following `devDependencies`:
     - `webpack`
     - `webpack-cli`
     - `babel-loader`
     - `@babel/core`
     - `@babel/plugin-transform-react-jsx`
-4. Install the following direct `dependencies`:
+5. Install the following direct `dependencies`:
     - `react`
     - `react-dom`
-5. Add a `"build"` script to `package.json` that runs `webpack`.
-6. Review the `webpack.config.js` that is included in this exercise. Notice the Babel plugins being used by `babel-loader`.
-7. Review the code in `src/index.jsx`.
-8. Run your `"build"` script with `npm` by doing `npm run build` in the terminal.
-9. Open `dist/index.html` in your browser.
+6. Add a `"build"` script to `package.json` that runs `webpack`.
+7. Review the `webpack.config.js` that is included in this exercise. Notice the Babel plugins being used by `babel-loader`.
+8. Review the code in `src/index.jsx`.
+9. Run your `"build"` script with `npm` by doing `npm run build` in the terminal.
+10. Open `dist/index.html` in your browser.
 
 ![React JSX Solution](react-jsx-solution.png)
 
