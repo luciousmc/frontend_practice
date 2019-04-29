@@ -27,8 +27,8 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
     baz();
     ```
-3. Read about [Plug-in Architecture](https://en.wikipedia.org/wiki/Plug-in_(computing)) on Wikipedia.
-4. Go back to the Babel REPL in step 2 and notice the Plugins that have been enabled.
+3. Read about [Plugin Architecture](https://en.wikipedia.org/wiki/Plug-in_(computing)) on Wikipedia.
+4. Go back to the Babel REPL in step 2 and notice the **plugins** that have been enabled.
 5. Create a new `package.json` and install the following `devDependencies`:
     - `webpack`
     - `webpack-cli`
