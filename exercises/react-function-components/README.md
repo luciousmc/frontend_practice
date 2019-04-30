@@ -1,6 +1,6 @@
 # react-function-components
 
-One sentence describing the activity in the exercise.
+Creating reusable components in React.
 
 ### Before You Begin
 

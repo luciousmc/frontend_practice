@@ -75,6 +75,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
     ![Props and Expressions](react-props-and-expressions-solution.png)
 13. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to see any changes you've made to `index.jsx`.
 
+
 ### Submitting Your Solution
 
 When your solution is complete, return to the root of your `senior-front-end-lessons` directory. Then commit your changes, push, and submit a Pull Request on GitHub. Detailed instructions can be found [**here**](../../guides/after-each-exercise.md).
