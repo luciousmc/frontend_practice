@@ -1,6 +1,6 @@
 # react-props-and-expressions
 
-One sentence describing the activity in the exercise.
+Passing dynamic values to React components.
 
 ### Before You Begin
 
