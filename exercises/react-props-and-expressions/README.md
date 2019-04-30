@@ -1,6 +1,6 @@
 # react-props-and-expressions
 
-One sentence describing the activity in the exercise.
+Passing dynamic values to React components.
 
 ### Before You Begin
 
@@ -74,6 +74,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 12. Open `dist/index.html` in your browser to see your rendered buttons.
     ![Props and Expressions](react-props-and-expressions-solution.png)
 13. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to see any changes you've made to `index.jsx`.
+
 
 ### Submitting Your Solution
 
