@@ -8,7 +8,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 ### Exercise
 
-1. Review variables in `main.js`.
+1. Review the variables in `main.js`.
 2. Read about [`Array.prototype.filter`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) in the MDN Web Docs.
 3. In `main.js`, create the following variables using `Array.prototype.filter` and log each of them to the console.
     - `evenNumbers` - all `numbers` that are divisible by `2`.
