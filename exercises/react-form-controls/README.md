@@ -22,8 +22,8 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 4. Define `handleChange` and `handleSubmit` methods on your class component.
     - `handleChange` should update the component's state each time the email `<input>` changes.
     - `handleSubmit` should [prevent the default form submission](https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault) behavior and log the component's state to the console.
-4. Pass `handleChange` to the `<input>`'s `onChange` prop and `handleSubmit` to the `<form>`'s `onSubmit` prop.
-5. Build your code and test it in the browser.
+5. Pass `handleChange` to the `<input>`'s `onChange` prop and `handleSubmit` to the `<form>`'s `onSubmit` prop.
+6. Build your code and test it in the browser.
 
 ![React Form Controls Solution](react-form-controls-solution.gif)
 
