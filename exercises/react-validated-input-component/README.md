@@ -8,7 +8,14 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 ### Challenge
 
-Use React and CSS to create an `ValidatedInput` component that displays its validation status.
+Use React and CSS to create a `ValidatedInput` component that displays its validation status.
+
+### Extra
+
+Add a validation rule that requires the user's password to contain:
+  - a special character
+  - a capital letter
+  - a digit
 
 ### Mockup
 
@@ -33,6 +40,7 @@ react-validated-input-component/
 ### References
 
 - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+- [Regexr](https://regexr.com/)
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Forms](https://reactjs.org/docs/forms.html)
 - [Font Awesome](https://fontawesome.com/start)
