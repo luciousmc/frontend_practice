@@ -35,7 +35,7 @@ Occasionally, updates to these lessons will be made available by instructors. Ad
 
 ### Install JavaScript Dependencies.
 
-These lessons use Node.js to check your code before you turn it in. Run the following command in the root of your local `senior-front-end-lessons` repository:
+Some exercises use Node.js to check your code before you turn them in. Run the following command in the root of your local `senior-front-end-lessons` repository:
 
 ```bash
 npm install
