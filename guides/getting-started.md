@@ -32,3 +32,15 @@ Occasionally, updates to these lessons will be made available by instructors. Ad
     ```
 
 ![Setting senior-front-end-lessons Upstream](images/setting-senior-front-end-lessons-upstream.gif)
+
+### Install JavaScript Dependencies.
+
+These lessons use Node.js to check your code before you turn it in. Run the following command in the root of your local `senior-front-end-lessons` repository:
+
+```bash
+npm install
+```
+
+### Done!
+
+You are ready to go! The instructors will let you know which exercise to start with.
