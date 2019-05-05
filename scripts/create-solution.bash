@@ -14,5 +14,6 @@ exercise_name="$1"
 exercise_path="exercises/$exercise_name"
 solution_path="solutions/$exercise_name"
 
+cp -Rp $exercise_path $solution_path
 mkdir -p $solution_path
-find $exercise_path -type f -not -iname 'README.md' -exec cp {} $solution_path \;
+find $solution_path -type f -iname 'README.md' -exec rm {} \;
