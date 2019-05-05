@@ -45,6 +45,10 @@
     "react": "16.8.6"
   },
   "eslintConfig": {
+    "env": {
+      "browser": true,
+      "node": true
+    },
     "parser": "babel-eslint",
     "extends": [
       "plugin:react/recommended",
