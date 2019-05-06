@@ -1,4 +1,4 @@
-import $ from 'jquery';
+const $ = require('jquery');
 
 function updateHeading($h1) {
   if ($h1.is('[webpack]')) {
