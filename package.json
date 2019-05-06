@@ -1,6 +1,8 @@
 {
   "name": "senior-front-end-lessons",
   "version": "1.0.0",
+  "private": true,
+  "license": "SEE LICENSE IN LICENSE",
   "description": "Senior Front End Lessons and Resources",
   "main": "index.js",
   "scripts": {
@@ -25,7 +27,6 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/Learning-Fuze/senior-front-end-lessons/issues"
   },
