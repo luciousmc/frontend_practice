@@ -1,7 +1,9 @@
-const noop = require('./noop');
-const toArray = require('./to-array');
-const createElement = require('./create-element');
+import noop from './noop';
+import toArray from './to-array';
+import createElement from './create-element';
 
-exports.noop = noop;
-exports.toArray = toArray;
-exports.createElement = createElement;
+export {
+  noop,
+  toArray,
+  createElement
+};

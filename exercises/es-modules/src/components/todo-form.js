@@ -20,6 +20,7 @@ class TodoForm {
   renderInput() {
     const input = createElement('input', {
       type: 'text',
+      required: true,
       class: 'form-control',
       placeholder: 'What to do?'
     });
