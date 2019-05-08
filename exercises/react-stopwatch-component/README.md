@@ -10,12 +10,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 Use React and CSS to create a `Stopwatch` component that can be started, paused, and reset.
 
-### Mockup
-
-<p align="center">
-  <img src="stopwatch.png"/>
-</p>
-
 ### Project Structure
 
 ```shell
@@ -28,6 +22,12 @@ react-stopwatch-component/
 │   └── index.jsx
 └── webpack.config.js
 ```
+
+### Mockup
+
+<p align="center">
+  <img src="stopwatch.png"/>
+</p>
 
 ### References
 
