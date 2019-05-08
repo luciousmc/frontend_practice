@@ -8,7 +8,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 ### Exercise
 
-1. Read through all of the files provided in this exercise and note the CommonJS-style `require()` and `module.exports` statements.
+1. Read through all of the files provided in this exercise and note the [CommonJS-style](https://nodejs.org/api/modules.html#modules_modules) `require()` and `module.exports` statements.
 2. Read [Sections 2 and 3](http://2ality.com/2014/09/es6-modules-final.html#ecmascript-6-modules) of Dr. Axel Rauschmayer's article on the syntax of ECMAScript 6 (ES6) modules.
 3. Read about [Webpack's Module Resolution and its rules](https://webpack.js.org/concepts/module-resolution) in the official Webpack documentation.
 4. Install the exercise's dependencies by running `npm install`.
