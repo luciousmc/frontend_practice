@@ -10,19 +10,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 Use React and CSS to create a `ValidatedInput` component that displays its validation status.
 
-### Extra
-
-Add a validation rule that requires the user's password to contain:
-  - a special character
-  - a capital letter
-  - a digit
-
-### Mockup
-
-<p align="center">
-  <img src="validated-input.png"/>
-</p>
-
 ### Project Structure
 
 ```shell
@@ -37,13 +24,27 @@ react-validated-input-component/
 └── webpack.config.js
 ```
 
+### Mockup
+
+<p align="center">
+  <img src="validated-input.png"/>
+</p>
+
 ### References
 
 - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
-- [Regexr](https://regexr.com/)
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
+- [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - [Forms](https://reactjs.org/docs/forms.html)
 - [Font Awesome](https://fontawesome.com/start)
+- [Regexr](https://regexr.com/)
+
+### Extra
+
+Add a validation rule that requires the user's password to contain:
+  - a digit
+  - a capital letter
+  - a special character (`!`, `@`, `#`, `$`, `%`, `^`, `&`, `*`, `(`, or `)`)
 
 ### Submitting Your Solution
 

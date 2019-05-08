@@ -10,12 +10,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 Use React and CSS to create an `AppDrawer` component that can be toggled open and closed.
 
-### Mockup
-
-<p align="center">
-  <img src="app-drawer.png"/>
-</p>
-
 ### Project Structure
 
 ```shell
@@ -29,6 +23,12 @@ react-app-drawer-component/
 │   └── app-drawer.jsx
 └── webpack.config.js
 ```
+
+### Mockup
+
+<p align="center">
+  <img src="app-drawer.png"/>
+</p>
 
 ### References
 

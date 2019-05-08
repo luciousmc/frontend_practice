@@ -10,12 +10,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 Use React and CSS to create a `ToggleSwitch` component that toggles between "ON" and "OFF" when a user clicks it.
 
-### Mockup
-
-<p align="center">
-  <img src="toggle-switch.png"/>
-</p>
-
 ### Project Structure
 
 ```shell
@@ -25,9 +19,16 @@ react-toggle-switch-component/
 │   └── styles.css
 ├── package.json
 ├── src
-│   └── index.jsx
+│   ├── index.jsx
+│   └── toggle-switch.jsx
 └── webpack.config.js
 ```
+
+### Mockup
+
+<p align="center">
+  <img src="toggle-switch.png"/>
+</p>
 
 ### References
 

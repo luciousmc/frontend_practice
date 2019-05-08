@@ -10,12 +10,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 Use React and CSS to create a `HotButton` component that changes color based on how many times the user has clicked it.
 
-### Mockup
-
-<p align="center">
-  <img src="hot-button.png"/>
-</p>
-
 ### Project Structure
 
 ```shell
@@ -25,9 +19,16 @@ react-hot-button-component/
 │   └── styles.css
 ├── package.json
 ├── src
-│   └── index.jsx
+│   ├── index.jsx
+│   └── hot-button.jsx
 └── webpack.config.js
 ```
+
+### Mockup
+
+<p align="center">
+  <img src="hot-button.png"/>
+</p>
 
 ### References
 
