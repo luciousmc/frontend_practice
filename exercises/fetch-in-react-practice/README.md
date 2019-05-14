@@ -35,6 +35,8 @@ Creates a new `todo` object from the request body and returns the created `todo`
 
 Applies updates to the `todo` object identified by its `id` property in the URL and applies the updates found in the request body. Returns the updated `todo`.
 
+![Fetch in React Practice](fetch-in-react-practice.gif)
+
 ### Submitting Your Solution
 
 When your solution is complete, return to the root of your `senior-front-end-lessons` directory. Then commit your changes, push, and submit a Pull Request on GitHub. Detailed instructions can be found [**here**](../../guides/after-each-exercise.md).
