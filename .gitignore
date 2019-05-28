@@ -2,3 +2,4 @@
 **/public/main.js*
 **/dist/main.js*
 .DS_Store
+.fuse_hidden*
