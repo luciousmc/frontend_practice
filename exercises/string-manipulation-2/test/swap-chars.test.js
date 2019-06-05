@@ -13,6 +13,11 @@ describe.skip('swapChars(firstIndex, secondIndex, string)', function () {
     expect(result).to.equal('teacR');
   });
 
+  it('swaps the "t" and last "e" of "complete"', function () {
+    var result = swapChars(6, 7, 'complete');
+    expect(result).to.equal('compleet');
+  });
+
   it('swaps the "L" and "F" of "LearningFuze"', function () {
     var result = swapChars(0, 8, 'LearningFuze');
     expect(result).to.equal('FearningLuze');
