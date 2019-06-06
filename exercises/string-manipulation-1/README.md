@@ -10,7 +10,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 
 Remember, `String`s [are Array-like](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Character_access) and have a lot of [useful methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#Methods_2).
 
-To begin, download the dependencies listed in `package.json` with the `npm install` command. Then examine the `"scripts"` included in `package.json`. `"test"` runs the [`mocha`](https://mochajs.org/) testing framework once; `"tdd"` runs `mocha` in `--watch` mode to automatically re-run tests when file changes are detected. Run the `"test"` script with `npm` and `mocha` will run once.
+To begin, download the dependencies listed in `package.json` with the `npm install` command. Then examine the `"scripts"` included in `package.json`. `"test"` runs the [`mocha`](https://mochajs.org/) testing framework once; `"tdd"` runs `mocha` in `--watch` mode to automatically re-run tests when file changes are detected.
 
 ```bash
 npm test
