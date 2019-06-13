@@ -1,3 +1,3 @@
-module.exports = function isPalindrome(string) {
+module.exports = function isPalindromic(string) {
 
 };

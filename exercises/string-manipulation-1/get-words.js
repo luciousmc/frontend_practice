@@ -1,3 +1,3 @@
-module.exports = function words(string) {
+module.exports = function getWords(string) {
 
 };
