@@ -70,10 +70,10 @@ To begin, download the dependencies listed in `package.json` with the `npm insta
     #### Examples
 
     ```js
-    reverseWords('All Code All Day')      // -> "yaD llA edoC llA"
-    reverseWords('What is unit testing?') // -> "?gnitset tinu si tahW"
-    reverseWords('follow your passion')   // -> "noissap ruoy wollof"
-    reverseWords('Hello, how are you?')   // -> "?uoy era woh ,olleH"
+    reverseWords('All Code All Day')      // -> "llA edoC llA yaD"
+    reverseWords('What is unit testing?') // -> "tahW si tinu ?gnitset"
+    reverseWords('follow your passion')   // -> "wollof ruoy noissap"
+    reverseWords('Hello, how are you?')   // -> ",olleH woh era ?uoy"
     ```
 
 1. ### `titleCase(title)`
