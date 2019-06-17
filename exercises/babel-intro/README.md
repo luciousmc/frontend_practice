@@ -49,4 +49,5 @@ When your solution is complete, return to the root of your `senior-front-end-les
 
 - What is Babel?
 - What is a Plug-in?
+- What is a Webpack loader?
 - How can you make Babel and Webpack work together?
