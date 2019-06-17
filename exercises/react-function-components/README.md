@@ -57,7 +57,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 9. Run your `"build"` script by doing `npm run build` in your terminal.
 10. Open `dist/index.html` in your browser to see your rendered button.
     ![Function Components Solution](react-function-components-solution.png)
-11. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to see any changes you've made to `index.jsx`.
+11. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js` (or add an NPM script named `watch` that runs `webpack --watch`).
 
 ### Submitting Your Solution
 

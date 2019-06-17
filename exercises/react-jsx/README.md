@@ -46,5 +46,5 @@ When your solution is complete, return to the root of your `senior-front-end-les
 ### Quiz
 
 - What is JSX?
-- Why must React be imported when authoring JSX?
+- Why must the React object be imported when authoring JSX?
 - How can you make Webpack and Babel work together to convert JSX into valid JavaScript?
