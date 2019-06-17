@@ -84,4 +84,4 @@ When your solution is complete, return to the root of your `senior-front-end-les
 
 - What are props in React?
 - How do you pass props to a component?
-- How do write JavaScript expressions in JSX?
+- How do you write JavaScript expressions in JSX?
