@@ -59,5 +59,5 @@ When your solution is complete, return to the root of your `senior-front-end-les
 
 ### Quiz
 
-- What is are some ways to render lists of React elements?
+- What `Array` method is commonly used to create a list of React elements?
 - What is the best value to use as a "key" prop when rendering lists?
