@@ -34,7 +34,7 @@ When your solution is complete, return to the root of your `senior-front-end-les
 
 ### Quiz
 
+- What is Webpack?
 - How do you add a `devDependency` to a package?
-- What is Webpack used for?
 - What is an NPM script?
-- How do you bundle front end code with NPM and Webpack?
+- How do you execute Webpack with `npm run`?
