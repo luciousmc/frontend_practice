@@ -51,7 +51,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 4. Render a `ul` of pokémon to the DOM using `React` and `ReactDOM`.
 5. Open `dist/index.html` in your browser to see your list.
     ![React Rendering Lists Solution](react-rendering-lists-solution.png)
-6. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js`.
+6. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js` (or add an NPM script named `watch` that runs `webpack --watch`).
 
 ### Submitting Your Solution
 

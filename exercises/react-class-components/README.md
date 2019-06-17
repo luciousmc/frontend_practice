@@ -64,7 +64,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
     );
     ```
 5. Use your `"build"` script to compile your JSX code and open `dist/index.html` in your browser to see your three buttons.
-6. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js`.
+6. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js` (or add an NPM script named `watch` that runs `webpack --watch`).
 
 ### Submitting Your Solution
 
