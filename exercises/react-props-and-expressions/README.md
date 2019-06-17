@@ -73,7 +73,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 11. Run your `"build"` script by doing `npm run build` in your terminal.
 12. Open `dist/index.html` in your browser to see your rendered buttons.
     ![Props and Expressions](react-props-and-expressions-solution.png)
-13. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to see any changes you've made to `index.jsx`.
+13. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js`.
 
 
 ### Submitting Your Solution
