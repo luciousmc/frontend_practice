@@ -39,7 +39,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
       ```
 2. Review [Components and Props](https://reactjs.org/docs/components-and-props.html) in the official React documentation.
 3. Read the [`React.Component` Overview](https://reactjs.org/docs/react-component.html#overview) in the official React documentation.
-4. Add the following code to `src/index.jsx` and refactor it to use a **class component** instead of a **function component**.
+4. Add the following code to `src/index.jsx` and refactor `CustomButton` from a **function component** to a **class component**.
     ```jsx
     import React from 'react';
     import ReactDOM from 'react-dom';
