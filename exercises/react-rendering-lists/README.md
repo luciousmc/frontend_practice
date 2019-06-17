@@ -45,7 +45,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
       { number: '004', name: 'Charmander' },
       { number: '007', name: 'Squirtle' },
       { number: '025', name: 'Pikachu' },
-      { number: '039', name: 'Jigglypuff' },
+      { number: '039', name: 'Jigglypuff' }
     ];
     ```
 4. Render a `ul` of pokémon to the DOM using `React` and `ReactDOM`.
