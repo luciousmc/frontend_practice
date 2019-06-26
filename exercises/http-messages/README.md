@@ -9,7 +9,6 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 ### Exercise
 
 1. Read the introduction to the [Client-Server model](https://en.wikipedia.org/wiki/Client%E2%80%93server_model), [Client-server roles](https://en.wikipedia.org/wiki/Client%E2%80%93server_model#Client_and_server_role), and [Client-server communication](https://en.wikipedia.org/wiki/Client%E2%80%93server_model#Client_and_server_communication) on Wikipedia.
-1. Read the [Web Servers and HTTP primer](https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Client-Server_overview#Web_servers_and_HTTP_(a_primer)) in the MDN Web Docs.
 1. Read about [HTTP Message formats](https://developer.mozilla.org/en-US/docs/Web/HTTP/Messages) in the MDN Web Docs.
 1. [Use HTTPie](https://httpie.org/doc#usage) in your terminal to send a `GET` request to `http://example.com` and compare the output to the **response** format that you've read about. **Note:** The `http` command should already be available in your development environment. If not, notify an instructor.
 1. Send the same request again, but with the [`--verbose` output option](https://httpie.org/doc#output-options) to see the **request** you sent followed by the **response** you received.
