@@ -11,8 +11,8 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 1. Read about [`fetch`](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch) in the MDN Web Docs.
 1. Briefly review the [syntax and return value](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch#Syntax) of calling `fetch` in the MDN Web Docs.
 1. Briefly review the [syntax and return value](https://developer.mozilla.org/en-US/docs/Web/API/Body/json) of the `json()` method found on `fetch` responses.
-1. Create an `index.html` and a `main.js`.
-1. Within `main.js`, use `fetch` to send a `GET` request to, *i.e* `https://jsonplaceholder.typicode.com/users`, and log the `Array` of user objects to the console.
+1. Add an HTML skeleton to `index.html` including a script tag for `main.js`.
+1. Within `main.js`, use `fetch` to send a `GET` request to `https://jsonplaceholder.typicode.com/users`, and log the `Array` of user objects to the console.
 1. **Alternatively**, use `fetch` to send a `GET` request to [the PokéAPI](https://pokeapi.co/docs/v2.html#pokemon) to retrieve your favorite pokémon and log its data to the console. *e.g* `https://pokeapi.co/api/v2/pokemon/1`
 
 ![Fetch Users](fetch-users.png)
