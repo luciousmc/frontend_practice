@@ -31,7 +31,7 @@ react-stopwatch-component/
 
 ### References
 
-- [Font Awesome](https://fontawesome.com/start)
+- [Font Awesome Icons](https://fontawesome.com/icons?d=gallery) - (CSS link [here](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css))
 - [Introducing JSX](https://reactjs.org/docs/introducing-jsx.html)
 - [Rendering Elements](https://reactjs.org/docs/rendering-elements.html)
 - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)

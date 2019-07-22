@@ -36,7 +36,7 @@ react-validated-input-component/
 - [Handling Events](https://reactjs.org/docs/handling-events.html)
 - [Conditional Rendering](https://reactjs.org/docs/conditional-rendering.html)
 - [Forms](https://reactjs.org/docs/forms.html)
-- [Font Awesome](https://fontawesome.com/start)
+- [Font Awesome Icons](https://fontawesome.com/icons?d=gallery) - (CSS link [here](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css))
 - [Regexr](https://regexr.com/)
 
 ### Extra
