@@ -33,7 +33,7 @@ react-app-drawer-component/
 ### References
 
 - [Thinking in React](https://reactjs.org/docs/thinking-in-react.html)
-- [Font Awesome](https://fontawesome.com/start)
+- [Font Awesome Icons](https://fontawesome.com/icons?d=gallery) - (CSS link [here](https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css))
 - [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
 - [Lifting State Up](https://reactjs.org/docs/lifting-state-up.html)
 
