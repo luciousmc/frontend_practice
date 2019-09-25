@@ -181,7 +181,7 @@ Open `src/take.js` and `src/take.test.js` in your code editor and skim the code 
 
     #### Return Value
 
-    A new `Array` of `Arrays`. Each sub-`Array` has a length equal to `size`. Remainder elements are gathered into the final sub-`Array`.
+    A new `Array` of `Arrays`. Each sub-`Array` has a length equal to `size`. Remainder elements are gathered into a final sub-`Array`.
 
     #### CHALLENGE
 
