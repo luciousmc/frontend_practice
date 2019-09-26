@@ -6,6 +6,7 @@
   "description": "Senior Front End Lessons and Resources",
   "main": "index.js",
   "scripts": {
+    "create-branches": "./scripts/create-branches.bash",
     "create-exercise": "./scripts/create-exercise.bash",
     "create-solution": "./scripts/create-solution.bash",
     "test": "echo \"Error: no test specified\" && exit 1"
