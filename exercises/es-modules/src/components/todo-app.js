@@ -26,6 +26,7 @@ class TodoApp {
     const isCompleted = false;
     const newTodo = { id, task, isCompleted };
     this.todos = this.todos.concat(newTodo);
+    this.nextId++;
     this.update();
   }
   toggleCompleted(todoId) {
