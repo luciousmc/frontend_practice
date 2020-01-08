@@ -17,4 +17,9 @@ const books = [
   }
 ];
 const output = JSON.stringify(books);
-console.log('the output is: ', output);
+console.log('JSON stringify returns: ', output);
+
+const student = '{"id": 30, "name": "Brian"}';
+
+const output2 = JSON.parse(student);
+console.log('JSON parse returns: ', output2);
