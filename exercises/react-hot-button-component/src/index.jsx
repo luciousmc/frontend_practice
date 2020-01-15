@@ -12,8 +12,6 @@ class HotButton extends React.Component {
   }
   renderBgColor() {
     let value = Math.floor(this.state.clicks / 3);
-    // eslint-disable-next-line no-console
-    console.log('value is: ', value, 'clicks is: ', this.state.clicks);
     if (value === 6) {
       return this.state.colors[0];
     }
