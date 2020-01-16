@@ -8,24 +8,30 @@ class ToggleSwitch extends React.Component {
     };
     this.handleClick = this.handleClick.bind(this);
   }
-  handleClick(event) {
+  handleClick() {
     this.setState(state => ({
-      istoggledOn: !state.isToggledOn
+      isToggledOn: !state.isToggledOn
     }));
   }
   render() {
+    let status = this.state.isToggledOn === false ? 'OFF' : 'ON';
     if (this.state.isToggledOn === false) {
       return (
-        <div className="switch-container" onClick={this.handleClick}>
-          <div id="switch" className="off"></div>
+        <div className="switch-container off" onClick={this.handleClick}>
+          <div id="switch">
+            <h2>{status}</h2>
+          </div>
+        </div>
+      );
+    } else {
+      return (
+        <div className="switch-container on" onClick={this.handleClick}>
+          <div id="switch">
+            <h2>{status}</h2>
+          </div>
         </div>
       );
     }
-    return (
-      <div className="switch-container" onClick={this.handleClick}>
-        <div id="switch" className="on"></div>
-      </div>
-    );
   }
 }
 
