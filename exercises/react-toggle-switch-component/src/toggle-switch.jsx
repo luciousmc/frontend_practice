@@ -9,14 +9,21 @@ class ToggleSwitch extends React.Component {
     this.handleClick = this.handleClick.bind(this);
   }
   handleClick(event) {
-    let switchElem = document.getElementsByClassName('switch');
-    // eslint-disable-next-line no-console
-    console.log('the classlist is : ', switchElem[0].classList);
+    this.setState(state => ({
+      istoggledOn: !state.isToggledOn
+    }));
   }
   render() {
+    if (this.state.isToggledOn === false) {
+      return (
+        <div className="switch-container" onClick={this.handleClick}>
+          <div id="switch" className="off"></div>
+        </div>
+      );
+    }
     return (
       <div className="switch-container" onClick={this.handleClick}>
-        <div className="switch off"></div>
+        <div id="switch" className="on"></div>
       </div>
     );
   }
