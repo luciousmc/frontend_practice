@@ -3,6 +3,12 @@
   background-color: gray;
   border: 2px solid black;
 }
+.switch-container:hover {
+  cursor: pointer;
+}
+.switch-container:before {
+  content: 'OFF';
+}
 .switch {
   width: 100px;
   height: 100px;
