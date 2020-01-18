@@ -11,6 +11,9 @@ class AppDrawer extends React.Component {
   render() {
     return (
       <div className="drawer-container">
+        <span className="menu-icon">
+          <i className="fas fa-bars"></i>
+        </span>
         <div className="drawer-content-container">
           <h1 className="title">Menu</h1>
           <hr className="separator"/>

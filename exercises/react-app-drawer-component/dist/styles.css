@@ -17,6 +17,8 @@ body {
   color: white;
 }
 .title {
+  display: inline-block;
+  width: 80%;
   font-family: helvetica;
   font-size: 1.5em;
   text-align: center;
@@ -28,4 +30,11 @@ body {
 .nav li {
   padding: 10px;
   list-style-type: '-';
+}
+.menu-icon {
+  font-size: 3em;
+  color: white;
+  position: relative;
+  top: 5%;
+  left: 3%;
 }
