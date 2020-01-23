@@ -19,3 +19,9 @@ var prices = numbers.map(val => {
   return output;
 });
 console.log('the prices array is: ', prices);
+
+var upperCased = languages.map(val => val.toUpperCase());
+console.log('the upperCased array is: ', upperCased);
+
+var firstLetter = languages.map(val => val[0]);
+console.log('the firstLetter array is: ', firstLetter);
