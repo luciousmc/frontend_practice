@@ -9,3 +9,19 @@ var languages = [
   'PHP Hypertext Preprocessor',
   'Structured Query Language'
 ];
+
+var doubled = numbers.map(val => val * 2);
+console.log('the doubled array is: ', doubled);
+
+var prices = numbers.map(val => {
+  var output = '$';
+  output += val.toFixed(2);
+  return output;
+});
+console.log('the prices array is: ', prices);
+
+var upperCased = languages.map(val => val.toUpperCase());
+console.log('the upperCased array is: ', upperCased);
+
+var firstLetter = languages.map(val => val[0]);
+console.log('the firstLetter array is: ', firstLetter);
