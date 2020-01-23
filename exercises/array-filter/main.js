@@ -20,3 +20,6 @@ console.log('evenNumbers array is: ', evenNumbers);
 
 var overFive = numbers.filter(value => value > 5);
 console.log('overFive array is: ', overFive);
+
+var startWithT = names.filter(value => value[0] === 'T');
+console.log('startWithT array is: ', startWithT);
