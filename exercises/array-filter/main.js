@@ -23,3 +23,6 @@ console.log('overFive array is: ', overFive);
 
 var startWithT = names.filter(value => value[0] === 'T');
 console.log('startWithT array is: ', startWithT);
+
+var haveD = names.filter(value => value.includes('d') || value.includes('D'));
+console.log('haveD array is: ', haveD);
