@@ -14,3 +14,9 @@ var names = [
   'Andy',
   'Tim D.'
 ];
+
+var evenNumbers = numbers.filter(value => value % 2 === 0);
+console.log('evenNumbers array is: ', evenNumbers);
+
+var overFive = numbers.filter(value => value > 5);
+console.log('overFive array is: ', overFive);
