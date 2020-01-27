@@ -1,0 +1,8 @@
+body {
+  font-size: 2em;
+}
+input[name="password"] {
+  border: 2px solid black;
+  font-size: 2rem;
+  padding: 5px 10px;
+}

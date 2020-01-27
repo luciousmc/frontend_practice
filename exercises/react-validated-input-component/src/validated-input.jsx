@@ -8,7 +8,12 @@ class ValidatedInput extends React.Component {
     };
   }
   render() {
-    return <div>hello</div>;
+    return (
+      <form onSubmit={this.handleSubmit}>
+        <label htmlFor="password">Password: </label>
+        <input type="text" name="password" />
+      </form>
+    );
   }
 }
 
