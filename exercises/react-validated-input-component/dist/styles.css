@@ -6,3 +6,12 @@ input[name="password"] {
   font-size: 2rem;
   padding: 5px 10px;
 }
+input[type="submit"] {
+  width: 100px;
+  height: 50px;
+  font-size: 1.4rem;
+  margin-left: 25px;
+}
+.icon {
+  margin-left: 50px;
+}

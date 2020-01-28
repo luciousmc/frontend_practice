@@ -9,24 +9,27 @@ class ValidatedInput extends React.Component {
     this.handlePasschange = this.handlePasschange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
   }
-  handlePasschange(event) {
-    this.setState({ input: event.target.value });
+  componentDidUpdate() {
     // eslint-disable-next-line no-console
     console.log('the state is: ', this.state);
+  }
+  handlePasschange(event) {
+    this.setState({ input: event.target.value });
   }
   handleSubmit(event) {
     event.preventDefault();
     // eslint-disable-next-line no-console
     console.log('the event object is: ', event);
-
   }
   render() {
     return (
       <form onSubmit={this.handleSubmit}>
         <label htmlFor="password">Password: </label>
-        <input type="password" name="password" onChange={this.handlePasschange} value={this.state.input} />
+        <input type="text" name="password" onChange={this.handlePasschange} value={this.state.input} />
         <input type="submit" />
+        <span className="icon"><i className="fas fa-check"></i></span>
       </form>
+
     );
   }
 }
