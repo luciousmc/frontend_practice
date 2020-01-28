@@ -4,7 +4,8 @@ class ValidatedInput extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      input: ''
+      input: '',
+      errMsg: ''
     };
     this.handlePasschange = this.handlePasschange.bind(this);
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -18,18 +19,32 @@ class ValidatedInput extends React.Component {
   }
   handleSubmit(event) {
     event.preventDefault();
-    // eslint-disable-next-line no-console
-    console.log('the event object is: ', event);
+
+    if (this.state.input.length < 8) {
+      this.setState({ errMsg: 'Please enter at least 8 characters' });
+    }
   }
   render() {
+    let errClass, iconClass, passFail;
+
+    if (this.state.errMsg) {
+      errClass = 'err';
+      iconClass = 'fa-times';
+      passFail = 'fail';
+    } else {
+      errClass = 'no-err';
+      iconClass = 'fa-check';
+      passFail = 'pass';
+    }
+
     return (
       <form onSubmit={this.handleSubmit}>
         <label htmlFor="password">Password: </label>
         <input type="text" name="password" onChange={this.handlePasschange} value={this.state.input} />
         <input type="submit" />
-        <span className="icon"><i className="fas fa-check"></i></span>
+        <span className={`icon ${passFail}`}><i className={`fas ${iconClass}`}></i></span>
+        <div className={`error-msg ${errClass}`}>{this.state.errMsg}</div>
       </form>
-
     );
   }
 }

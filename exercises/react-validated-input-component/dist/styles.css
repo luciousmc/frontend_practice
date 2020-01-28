@@ -15,3 +15,14 @@ input[type="submit"] {
 .icon {
   margin-left: 50px;
 }
+.pass {
+  color: green;
+}
+.fail {
+  color: red;
+}
+.err {
+  color: red;
+  margin-top: 20px;
+  font-size: 1.3rem;
+}
