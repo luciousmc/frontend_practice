@@ -19,14 +19,22 @@ class ValidatedInput extends React.Component {
   }
   handleSubmit(event) {
     event.preventDefault();
+    let usrInput = this.state.input;
 
-    if (this.state.input.length < 8) {
+    // Error when user hasn't  input anything
+    if (!usrInput) {
+      this.setState({ errMsg: 'A passsword is required to enter' });
+
+    // ERROR when user inputs less than 8 characters
+    } else if (usrInput.length < 8) {
       this.setState({ errMsg: 'Please enter at least 8 characters' });
     }
+    this.setState({ errMsg: '' });
   }
   render() {
     let errClass, iconClass, passFail;
 
+    // If there is an error message set, Set classes to display content when check fails
     if (this.state.errMsg) {
       errClass = 'err';
       iconClass = 'fa-times';
