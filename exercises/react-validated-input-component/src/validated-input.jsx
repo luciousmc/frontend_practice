@@ -28,8 +28,10 @@ class ValidatedInput extends React.Component {
     // ERROR when user inputs less than 8 characters
     } else if (usrInput.length < 8) {
       this.setState({ errMsg: 'Please enter at least 8 characters' });
+    // If everything passes clear any error messages there may be
+    } else {
+      this.setState({ errMsg: '' });
     }
-    this.setState({ errMsg: '' });
   }
   render() {
     let errClass, iconClass, passFail;
