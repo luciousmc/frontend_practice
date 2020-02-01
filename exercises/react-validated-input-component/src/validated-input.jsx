@@ -20,7 +20,9 @@ class ValidatedInput extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     let usrInput = this.state.input;
-    let regex = /[0-9]/;
+    const regexNum = /[0-9]/;
+    const regexCaps = /[A-Z]/;
+    const regexSpecChar = /[-!@#$%^&*()_+=/\\:;'"`~,?<>.]/;
 
     // Error when user hasn't  input anything
     if (!usrInput) {
@@ -31,10 +33,18 @@ class ValidatedInput extends React.Component {
       this.setState({ errMsg: 'Please enter at least 8 characters' });
 
     // ERROR: User must enter at least 1 number
-    } else if (!regex.test(usrInput)) {
+    } else if (!regexNum.test(usrInput)) {
       this.setState({ errMsg: 'Please use at least 1 number in the password' });
 
-    // If everything passes clear any error messages there may be
+    // ERROR: User must use at least one capital letter
+    } else if (!regexCaps.test(usrInput)) {
+      this.setState({ errMsg: 'Please use at least 1 capital letter' });
+
+    // ERROR: User must use at least 2 special character
+    } else if (!regexSpecChar.test(usrInput)) {
+      this.setState({ errMsg: 'Please use at least 1 special character' });
+
+    // If everything passes, clear any error messages there may be
     } else {
       this.setState({ errMsg: '' });
     }
@@ -56,7 +66,7 @@ class ValidatedInput extends React.Component {
     return (
       <form onSubmit={this.handleSubmit}>
         <label htmlFor="password">Password: </label>
-        <input type="text" name="password" onChange={this.handlePasschange} value={this.state.input} />
+        <input type="password" name="password" onChange={this.handlePasschange} value={this.state.input} />
         <input type="submit" />
         <span className={`icon ${passFail}`}><i className={`fas ${iconClass}`}></i></span>
         <div className={`error-msg ${errClass}`}>{this.state.errMsg}</div>
