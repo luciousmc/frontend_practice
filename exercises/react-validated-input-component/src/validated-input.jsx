@@ -20,6 +20,7 @@ class ValidatedInput extends React.Component {
   handleSubmit(event) {
     event.preventDefault();
     let usrInput = this.state.input;
+    let regex = /[0-9]/;
 
     // Error when user hasn't  input anything
     if (!usrInput) {
@@ -28,6 +29,11 @@ class ValidatedInput extends React.Component {
     // ERROR when user inputs less than 8 characters
     } else if (usrInput.length < 8) {
       this.setState({ errMsg: 'Please enter at least 8 characters' });
+
+    // ERROR: User must enter at least 1 number
+    } else if (!regex.test(usrInput)) {
+      this.setState({ errMsg: 'Please use at least 1 number in the password' });
+
     // If everything passes clear any error messages there may be
     } else {
       this.setState({ errMsg: '' });
