@@ -17,23 +17,19 @@ class TodoForm {
     this.onSubmit(this.newTask);
     this.newTask = '';
     event.target.reset();
-  }
-  renderInput() {
-    const input = createElement('input', {
-      type: 'text',
-      required: true,
-      class: 'form-control',
-      placeholder: 'What to do?'
-    });
-    input.addEventListener('change', this.handleChange);
-    return input;
+    event.target.querySelector('input').focus();
   }
   render() {
     if (this.element) return this.element;
     this.element = (
       createElement('form', { class: 'shadow-sm mb-4' }, [
         createElement('div', { class: 'input-group' }, [
-          this.renderInput(),
+          createElement('input', {
+            type: 'text',
+            required: true,
+            class: 'form-control',
+            placeholder: 'What to do?'
+          }),
           createElement('div', { class: 'input-group-append' }, [
             createElement('button', { type: 'submit', class: 'btn btn-primary' }, 'Add Todo')
           ])

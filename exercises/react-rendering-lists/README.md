@@ -45,13 +45,13 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
       { number: '004', name: 'Charmander' },
       { number: '007', name: 'Squirtle' },
       { number: '025', name: 'Pikachu' },
-      { number: '039', name: 'Jigglypuff' },
+      { number: '039', name: 'Jigglypuff' }
     ];
     ```
 4. Render a `ul` of pokémon to the DOM using `React` and `ReactDOM`.
 5. Open `dist/index.html` in your browser to see your list.
     ![React Rendering Lists Solution](react-rendering-lists-solution.png)
-6. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to see any changes you've made to `index.jsx`.
+6. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js` (or add an NPM script named `watch` that runs `webpack --watch`).
 
 ### Submitting Your Solution
 
@@ -59,5 +59,5 @@ When your solution is complete, return to the root of your `senior-front-end-les
 
 ### Quiz
 
-- What is are some ways to render lists of React elements?
+- What `Array` method is commonly used to create a list of React elements?
 - What is the best value to use as a "key" prop when rendering lists?

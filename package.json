@@ -6,6 +6,7 @@
   "description": "Senior Front End Lessons and Resources",
   "main": "index.js",
   "scripts": {
+    "create-branches": "./scripts/create-branches.bash",
     "create-exercise": "./scripts/create-exercise.bash",
     "create-solution": "./scripts/create-solution.bash",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -92,8 +93,17 @@
           "asyncArrow": "always"
         }
       ],
-      "react/prop-types": 0,
-      "react/react-in-jsx-scope": 0
-    }
+      "react/prop-types": 0
+    },
+    "overrides": [
+      {
+        "files": [
+          "*.test.js"
+        ],
+        "env": {
+          "mocha": true
+        }
+      }
+    ]
   }
 }

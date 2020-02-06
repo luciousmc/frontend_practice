@@ -9,7 +9,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 ### Exercise
 
 1. Read through all of the files provided in this exercise and note the [CommonJS-style](https://nodejs.org/api/modules.html#modules_modules) `require()` and `module.exports` statements.
-2. Read [Sections 2 and 3](http://2ality.com/2014/09/es6-modules-final.html#ecmascript-6-modules) of Dr. Axel Rauschmayer's article on the syntax of ECMAScript 6 (ES6) modules.
+2. Read [Sections 1, 2, and 3](http://2ality.com/2014/09/es6-modules-final.html#module-systems-for-current-javascript) of Dr. Axel Rauschmayer's article on the syntax of ECMAScript 6 (ES6) modules.
 3. Read about [Webpack's Module Resolution and its rules](https://webpack.js.org/concepts/module-resolution) in the official Webpack documentation.
 4. Install the exercise's dependencies by running `npm install`.
 5. Start Webpack with a watcher by running the script found in `package.json` and open `dist/index.html` in your browser.
@@ -22,4 +22,4 @@ When your solution is complete, return to the root of your `senior-front-end-les
 ### Quiz
 
 - What is an ES6 module and how is it different from a CommonJS module?
-- What kind of modules does Webpack support?
+- What kind of modules can Webpack support?

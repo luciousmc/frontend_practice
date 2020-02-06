@@ -9,8 +9,8 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 ### Exercise
 
 1. Initialize this directory with a `package.json` using `npm`.
-2. Install the `react` and `react-dom` packages as `dependencies`.
-3. Install the `webpack` and `webpack-cli` packages as `devDependencies`.
+2. Install the [`react`](https://www.npmjs.com/package/react) and [`react-dom`](https://www.npmjs.com/package/react-dom) packages as `dependencies`.
+3. Install the [`webpack`](https://www.npmjs.com/package/webpack) and [`webpack-cli`](https://www.npmjs.com/package/webpack-cli) packages as `devDependencies`.
 4. Read about React on the [https://reactjs.org/](https://reactjs.org/) home page.
 5. Create a directory named `dist` and add an `index.html` file to it containing an HTML skeleton.
 6. Within `index.html`, add a `div` with an `id` attribute of `"root"` to your `index.html`
@@ -28,7 +28,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
         └── index.js
     ```
 10. Within `index.js`, [import `React`](https://reactjs.org/docs/react-api.html) from the `react` package and import [`ReactDOM`](https://reactjs.org/docs/react-dom.html) from the `react-dom` package.
-11. [Use `React.createElement`](https://reactjs.org/docs/react-api.html#createelement) to create an `h1` React element with `null` props and a `children` string of `'Hello, React!'`.
+11. [Use `React.createElement`](https://reactjs.org/docs/react-api.html#createelement) to create an `h1` React element with `null` props and a `children` string of `'Hello, React!'`. Log it to the console if you want to see what a React element looks like.
 12. [Use `ReactDOM.render`](https://reactjs.org/docs/react-dom.html#render) to mount your React element into your `div`.
 13. Run your `"build"` script and open `dist/index.html` in your browser.
     ```shell

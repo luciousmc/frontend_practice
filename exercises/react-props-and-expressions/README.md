@@ -73,7 +73,7 @@ Be sure to check out a new branch (from `master`) for this exercise. Detailed in
 11. Run your `"build"` script by doing `npm run build` in your terminal.
 12. Open `dist/index.html` in your browser to see your rendered buttons.
     ![Props and Expressions](react-props-and-expressions-solution.png)
-13. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to see any changes you've made to `index.jsx`.
+13. **Note:** Webpack does not automatically recompile your JSX code. You must re-run your `"build"` script to create a new `main.js` (or add an NPM script named `watch` that runs `webpack --watch`).
 
 
 ### Submitting Your Solution
@@ -84,4 +84,4 @@ When your solution is complete, return to the root of your `senior-front-end-les
 
 - What are props in React?
 - How do you pass props to a component?
-- How do write JavaScript expressions in JSX?
+- How do you write JavaScript expressions in JSX?
